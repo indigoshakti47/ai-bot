@@ -1,0 +1,39 @@
+{
+  "name": "ai-bot-hack",
+  "version": "1.0.0",
+  "description": "Ai chatbot that connects open AI with messenger",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/indigoshakti47/ai-bot.git"
+  },
+  "keywords": [
+    "hackathon",
+    "openai",
+    "messenger",
+    "chatbot",
+    "marketing",
+    "funnel",
+    "sales"
+  ],
+  "author": "Nathalia Indigo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/indigoshakti47/ai-bot/issues"
+  },
+  "homepage": "https://github.com/indigoshakti47/ai-bot#readme",
+  "dependencies": {
+    "@types/node": "^20.11.11",
+    "axios": "^1.6.7",
+    "dotenv": "^16.4.1",
+    "express": "^4.18.2",
+    "node-fetch": "^3.3.2",
+    "nodemon": "^3.0.3",
+    "openai": "^4.26.0"
+  }
+}
